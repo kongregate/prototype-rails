@@ -1,6 +1,7 @@
 require 'abstract_unit'
 require 'controller/fake_models'
 require 'active_support/core_ext/hash/conversions'
+require 'responders'
 
 class RespondToController < ActionController::Base
   layout :set_layout
